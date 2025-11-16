@@ -106,17 +106,6 @@ function App() {
     }
   };
 
-  const handleNewChat = () => {
-    setMessages([
-      {
-        id: 1,
-        text: "Hello! I'm your AI assistant. How can I help you today?",
-        sender: 'ai',
-        timestamp: new Date()
-      }
-    ]);
-  };
-
   return (
     <div className="app">
       <div className="main-content">
