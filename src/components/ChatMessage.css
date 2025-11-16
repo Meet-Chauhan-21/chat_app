@@ -1,0 +1,8 @@
+/* Additional message-specific styles if needed */
+.message {
+  transition: all 0.2s ease;
+}
+
+.message:hover {
+  opacity: 0.95;
+}
